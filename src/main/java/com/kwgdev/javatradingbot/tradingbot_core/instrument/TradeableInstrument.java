@@ -11,7 +11,9 @@ public class TradeableInstrument<T> {
     private final String instrument;
     private final String description;
     private final T instrumentId;
-    private final double pip;
+    private final double pip; /* pip is the lowest precision at which an instrument ticks. For e.g.
+    the pip value for USDJPY is 0.001. If the current USDJPY price is 123.462, then at minimum the
+    next price change would be to either 123.461 or 123.463. */
     private final int hash;
     private InstrumentPairInterestRate instrumentPairInterestRate;
 

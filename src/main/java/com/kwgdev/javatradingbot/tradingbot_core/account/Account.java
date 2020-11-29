@@ -1,4 +1,4 @@
-package com.kwgdev.javatradingbot.POJOs;
+package com.kwgdev.javatradingbot.tradingbot_core.account;
 
 
 /**

@@ -1,5 +1,8 @@
-package com.kwgdev.javatradingbot.POJOs;
+package com.kwgdev.javatradingbot.tradingbot_core.account;
 
+
+import com.kwgdev.javatradingbot.tradingbot_core.account.Account;
+import com.kwgdev.javatradingbot.tradingbot_core.account.AccountDataProvider;
 
 import java.util.Collection;
 import java.util.Collections;
