@@ -1,5 +1,8 @@
 package com.kwgdev.javatradingbot.tradingbot_core.instrument;
 
+import java.util.Collection;
+import java.util.Map;
+
 /**
  *
  * @author Shekhar Varshney
@@ -50,7 +53,8 @@ public class TradeableInstrument<T> {
         this.hash = calcHashCode();
     }
 
-    private int calcHashCode() {
+
+        private int calcHashCode() {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((instrument == null) ? 0 : instrument.hashCode());

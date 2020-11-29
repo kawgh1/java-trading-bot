@@ -1,5 +1,22 @@
 package com.kwgdev.javatradingbot.tradingbot_core.account;
 
+/*
+ * Sample JSON Payload for an Account
+ *
+ * {    "accountId" : 123456,
+ *     "accountName" : "main",
+ *     "balance" : 20567.9,
+ *     "unrealizedPl" : -897.1,
+ *     "realizedPl" : 1123.65,
+ *     "marginUsed" : 89.98,
+ *     "marginAvail" : 645.3,
+ *     "openTrades" : 5,
+ *     "openOrders" : 0,
+ *     "marginRate" : 0.05,
+ *     "accountCurrency" : CHF"
+ *   }
+ *
+ * */
 
 /**
 * A POJO that holds account information. No setters are provided as
@@ -9,7 +26,6 @@ package com.kwgdev.javatradingbot.tradingbot_core.account;
  * @param <T>
  *     the type of AccountId
  */
-
 public class Account < T > {
 
     private final double totalBalance;

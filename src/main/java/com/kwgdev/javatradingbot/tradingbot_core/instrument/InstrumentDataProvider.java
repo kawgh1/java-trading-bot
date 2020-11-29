@@ -1,5 +1,42 @@
 package com.kwgdev.javatradingbot.tradingbot_core.instrument;
 
+/*
+* Sample JSON Payload for Instruments
+*   {
+*     "instruments": [
+*       {
+*         "instrument": "AUD_CAD",
+*         "pip": "0.0001",
+*         "interestRate": {
+*           "AUD": {
+*             "bid": 0.0164,
+*             "ask": 0.027410
+*           },
+*            "CAD": {
+*              "bid": 0.002,
+*              "ask": 0.008
+*            }
+*          }
+*        },
+*        {
+*          "instrument": "AUD_CHF",
+*          "pip": "0.0001",
+*          "interestRate": {
+*            "AUD": {
+*              "bid": 0.0164,
+*              "ask": 0.0274
+*            },
+*            "CHF": {
+*              "bid": -0.013,
+*              "ask": 0.003
+*            }
+*          }
+*        }
+*      ]
+* }
+*
+* */
+
 import java.util.Collection;
 
 /**

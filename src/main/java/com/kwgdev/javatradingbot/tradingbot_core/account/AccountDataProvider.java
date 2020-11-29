@@ -1,6 +1,25 @@
 package com.kwgdev.javatradingbot.tradingbot_core.account;
 
-import com.kwgdev.javatradingbot.tradingbot_core.account.Account;
+
+/* Sample JSON Payload for AccountDataProvider
+*
+*  {
+*     "accounts": [
+*       {
+*       "accountId" : 1234567,
+*       "accountName" : "Primary",
+*       "accountCurrency" : "GBP",
+*       "marginRate" : 0.05
+*       },
+*       {
+*        "accountId"   : 2345678,
+*        "accountName"  : "EUR Account",
+*        "accountCurrency"  : "EUR",
+*        "marginRate"   : 0.1
+*        }
+*      ]
+*    }
+* */
 
 import java.util.Collection;
 
