@@ -13,12 +13,19 @@ with real world business use cases where I can apply personal experience.
 To build this bot I am going to use the following set of software and tools:
 
 • Java SDK 1.7+
+
 • Spring Framework 4.1 
+
 • Spring Social 1.1 (dependency in the tradingbot-app project only)
+
 • Guava 18.0
+
 • HttpClient 4.3
+
 • Maven 3.2.5
+
 • IntelliJ IDE
+
 
 #### Resources and Notes
 
